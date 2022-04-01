@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lentes de contato ACUVUE® - Cadastre-se!</title>
+  <link rel="shortcut icon" href="https://www.acuvue.com.br/sites/acuvue_br/files/favicon_0.ico" type="image/vnd.microsoft.icon">
+
+  <!-- Fonts Family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;700&family=Poppins&display=swap">
+
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Api Connection -->
+  <script src="https://unpkg.com/axios@0.21.4/dist/axios.min.js"></script>
+  <script src="main.js"></script>
+</head>
+  <body>
+    <div class="content">
+      <header>
+        <div class="topo">
+          <img src="./assets/logoAcuvue.svg" alt="Logo ACUVUE!">
+          <h1>Fase 01</h1>
+          <h3>Primeiro passo do cadastro finalizado em de report.</h3>
+        </div>
+      </header>
+      <form action="javascript: addNewToSend();" id="form1" method="POST">
+        <div class="data-form">
+          <h2>Envio de status</h2>
+          <hr class="separator-data">          
+          <div>
+            <label for="comercial">E-mail Comercial</label>
+            <input type="email" id="comercial" name="email">
+          </div>
+        </div>
+        <hr class="line-separator">
+        <dvi class="down">
+          <img src="./assets/Atenção.svg" alt="Icon de Alerta">
+          <span>Importante! Antes de enviar válide o status sendo enviado.</span>
+          <button type="submit" value="Enviar">Enviar cadastro</button>
+        </dvi>
+      </form>
+      <footer>
+        <div class="rodape">
+          <span>Copyright @2022, All right reserved TigoCode.</span>
+        </div>
+      </footer>
+    </div>    
+  </body>
+</html>
