@@ -4,7 +4,8 @@ async function addNewToSend() {
   const form = document.querySelector('form');
 
   const formData = {
-    email: form.email.value,	
+    email: form.email.value,
+    send: form.status.value,
   }
   axios.post(BASEURL, formData)
     .then(response => console.log(response.data))

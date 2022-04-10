@@ -58,7 +58,7 @@ body {
 .data-form {
   position: absolute;
   width: 736px;
-  height: 251px;
+  height: 351px;
   margin: 204px 0 0 352px;
 
   background: #FFFFFF;
@@ -142,11 +142,32 @@ body {
 
   color: #9797a7;
 }
+.data-form select {
+  position: relative;
+  display: block;
+  width: 208px;
+  height: 46px;
+  margin: 6px 0 0 64px;
+  padding: 8px;
+  
+  background: #FAFAFC;
+  border: 1px solid #c9c9c9;
+  border-radius: 8px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1rem;
+  line-height: 24px;
+  text-transform: uppercase;
+
+  color: #9797a7;
+}
 .down {
   position: absolute;
   width: 736px;
   height: 154px;
-  margin: 440px 0 0 352px;
+  margin: 540px 0 0 352px;
 
   background: #E0E0FF;
   border: 1px solid #E0E0FF;
@@ -205,7 +226,7 @@ body {
   position: absolute;
   width: 736px;
   height: 0px;
-  margin: 2338px 0 0 352px;
+  margin: 538px 0 0 352px;
 
   border: 0.0625rem solid hsla(240, 58%, 53%, 0.949)
 }
@@ -213,7 +234,7 @@ body {
   position: absolute;
   width: 396px;
   height: 23px;
-  margin: 605px 0 0 582px;
+  margin: 715px 0 0 562px;
 
   font-family: 'Poppins';
   font-style: normal;

@@ -23,8 +23,8 @@
       <header>
         <div class="topo">
           <img src="./assets/logoAcuvue.svg" alt="Logo ACUVUE!">
-          <h1>Fase 01</h1>
-          <h3>Primeiro passo do cadastro finalizado em de report.</h3>
+          <h1>Cadastro CRM</h1>
+          <h3>Envio dos status do cadastro até sua etapa final.</h3>
         </div>
       </header>
       <form action="javascript: addNewToSend();" id="form1" method="POST">
@@ -32,6 +32,13 @@
           <h2>Envio de status</h2>
           <hr class="separator-data">          
           <div>
+            <label>Seletor de status</label>
+            <select name="status" id="status">
+              <option value=""></option>
+              <option value="status01">Status 01</option>
+              <option value="status02">Status 02</option>
+            </select>
+
             <label for="comercial">E-mail Comercial</label>
             <input type="email" id="comercial" name="email">
           </div>
